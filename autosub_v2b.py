@@ -9,11 +9,9 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101
 
 home_urls = (
     'https://cooc.cloud',
-    'https://feiniaoyun.tk',
-    'https://www.ckcloud.xyz',
     'https://baipiao.buzz',
 )
-times = 10
+times = 15
 proxies = {
     'http': 'http://127.0.0.1:7890',
     'https': 'http://127.0.0.1:7890'
@@ -48,3 +46,4 @@ print(*subs, sep='\n')
 with open('subs.txt', 'w') as fil:
     print(f'{datetime.datetime.now().isoformat()}\n{times} accounts created for each site. Subscription URLs:\n----------', file=fil)
     print(*subs, sep='\n', file=fil)
+
