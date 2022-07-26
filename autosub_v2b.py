@@ -8,13 +8,18 @@ V2B_REG_REL_URL = '/api/v1/passport/auth/register'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0'
 
 home_urls = (
-    'https://cooc.cloud',
+    'https://www.ckcloud.xyz',
     'https://baipiao.buzz',
+    'https://circlecloud123.com',
+    'https://blackholeservices.com',
+    'https://feiniaoyun.top',
+    'https://www.v2board.cc',
+    'https://v2.amaoaskworld.tk',
 )
-times = 15
+times = 6
 proxies = {
     'http': 'http://127.0.0.1:7890',
-    'https': 'http://127.0.0.1:7890'
+    'https': 'http://127.0.0.1:7890',
 }
 
 subs = []
@@ -46,4 +51,3 @@ print(*subs, sep='\n')
 with open('subs.txt', 'w') as fil:
     print(f'{datetime.datetime.now().isoformat()}\n{times} accounts created for each site. Subscription URLs:\n----------', file=fil)
     print(*subs, sep='\n', file=fil)
-
