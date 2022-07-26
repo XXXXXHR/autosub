@@ -4,7 +4,8 @@
 
 ## 使用本仓库抓取的订阅
 
-订阅每小时更新： https://raw.githubusercontent.com/arielherself/autosub/main/subs.txt
+订阅每小时更新： 
+https://raw.githubusercontent.com/arielherself/autosub/main/subs.txt
 
 请注意，这个链接**不是一个订阅链接**，而是多个订阅链接的集合。请用浏览器打开，然后复制里面的订阅链接。
 
